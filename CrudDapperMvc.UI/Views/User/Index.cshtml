@@ -1,16 +1,13 @@
 ﻿@model List<CrudDapperMvc.Model.User>
 
-@{
-    ViewData["Title"] = "User List";
-}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewData["Title"]</title>
+    <title>User List</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap4.min.css">
     <style>
         .user-list {
             max-height: 300px; /* Defina a altura máxima desejada */
@@ -26,7 +23,7 @@
             @Html.AntiForgeryToken()
 
             <div class="form-group">
-                <label for="Name">Name:</label>
+                <label for="Name">Nome:</label>
                 <input type="text" class="form-control" id="Name" name="Name" placeholder="Enter name">
             </div>
             <div class="form-group">
@@ -34,10 +31,10 @@
                 <input type="text" class="form-control" id="Login" name="Login" placeholder="Enter login">
             </div>
             <div class="form-group">
-                <label for="Password">Password:</label>
+                <label for="Password">Senha:</label>
                 <input type="password" class="form-control" id="Password" name="Password" placeholder="Enter password">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
 
         <hr>
@@ -52,12 +49,12 @@
         </div>
 
         <div class="user-list">
-            <table class="table">
+            <table id="userTable" class="table table-striped table-bordered" style="width:100%">
                 <thead>
                     <tr>
-                        <th>Name</th>
+                        <th>Nome</th>
                         <th>Login</th>
-                        <th>Password</th>
+                        <th>Senha</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
@@ -79,13 +76,35 @@
                 </tbody>
             </table>
         </div>
+
+        <div class="form-group">
+            <table id="tblArquivo" class="tab-right">
+                <tr>
+                    <td width="60%"></td>
+                    <td>
+                        <div class="input-group right-addon form-inline">
+                            <button type="button" class="btn btn-primary btn-sm bg-black" @ViewBag.AcaoControleImporta onclick="location.href='@Url.Action("Contrato", "Servico", new { processo = "I", contrato = 0 })'">Importar Planilha</button>&nbsp;
+                            <input type="text" id="filtroContrato" name="filtroContrato" placeholder="Filtrar..." class="form-control">
+                            <span class="input-group-btn">
+                                <button type="submit" class="btn btn-default">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap4.min.js"></script>
 
     <script>
         $(document).ready(function () {
+            $('#userTable').DataTable();
+
             $('#userForm').submit(function (event) {
                 event.preventDefault(); // Previne a submissão padrão do formulário
 
@@ -108,9 +127,13 @@
             });
 
             $('#searchButton').click(function () {
-                var searchTerm = $('#searchInput').val();
-                $.post('/User/Search', { term: searchTerm }, function (data) {
-                    $('.user-list').html(data);
+                var searchTerm = $('#searchInput').val().toLowerCase();
+                $('#userTable tbody tr').hide();
+                $('#userTable tbody tr').each(function () {
+                    var name = $(this).find('td:eq(0)').text().toLowerCase(); // Índice 0 corresponde à coluna "Nome"
+                    if (name.includes(searchTerm)) {
+                        $(this).show();
+                    }
                 });
             });
         });

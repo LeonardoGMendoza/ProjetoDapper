@@ -8,16 +8,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-//using System;
-//using System.Reflection;
+using System;
+using System.Reflection;
 
-//[assembly: System.Reflection.AssemblyCompanyAttribute("CrudDapperMvc.Model")]
-//[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-//[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-//[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0dec269deedde24e12eca42c56154dcc6a92c8ad")]
-//[assembly: System.Reflection.AssemblyProductAttribute("CrudDapperMvc.Model")]
-//[assembly: System.Reflection.AssemblyTitleAttribute("CrudDapperMvc.Model")]
-//[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("CrudDapperMvc.Model")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ad9489a5426dfc42ff5c18e2af534d9c0f73486")]
+[assembly: System.Reflection.AssemblyProductAttribute("CrudDapperMvc.Model")]
+[assembly: System.Reflection.AssemblyTitleAttribute("CrudDapperMvc.Model")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 

@@ -1,0 +1,28 @@
+﻿@model List<CrudDapperMvc.Model.User>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Login</th>
+            <th>Senha</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Name</td>
+                <td>@user.Login</td>
+                <td>@user.Password</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="User Actions">
+                        <a asp-action="Edit" asp-route-id="@user.UserId" class="btn btn-primary">Editar</a>
+                        <a asp-action="Delete" asp-route-id="@user.UserId" class="btn btn-danger">Excluir</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

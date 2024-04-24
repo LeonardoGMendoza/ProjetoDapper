@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93560E35-CF6A-43DC-85D9-126B97F56F09}|CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj|c:\\users\\leonardo\\source\\repos\\clonedapper\\cruddappermvc.ui\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93560E35-CF6A-43DC-85D9-126B97F56F09}|CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj|solutionrelative:cruddappermvc.ui\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93560E35-CF6A-43DC-85D9-126B97F56F09}|CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj|c:\\users\\leonardo\\source\\repos\\clonedapper\\cruddappermvc.ui\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93560E35-CF6A-43DC-85D9-126B97F56F09}|CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj|solutionrelative:cruddappermvc.ui\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93560E35-CF6A-43DC-85D9-126B97F56F09}|CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj|c:\\users\\leonardo\\source\\repos\\clonedapper\\cruddappermvc.ui\\views\\user\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93560E35-CF6A-43DC-85D9-126B97F56F09}|CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj|solutionrelative:cruddappermvc.ui\\views\\user\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93560E35-CF6A-43DC-85D9-126B97F56F09}|CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj|c:\\users\\leonardo\\source\\repos\\clonedapper\\cruddappermvc.ui\\views\\user\\_userlistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93560E35-CF6A-43DC-85D9-126B97F56F09}|CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj|solutionrelative:cruddappermvc.ui\\views\\user\\_userlistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93560E35-CF6A-43DC-85D9-126B97F56F09}|CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj|c:\\users\\leonardo\\source\\repos\\clonedapper\\cruddappermvc.ui\\views\\user\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93560E35-CF6A-43DC-85D9-126B97F56F09}|CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj|solutionrelative:cruddappermvc.ui\\views\\user\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBACBD-417B-4CBC-BA87-0D566361B737}|CrudDapperMvc.Business\\CrudDapperMvc.Business.csproj|c:\\users\\leonardo\\source\\repos\\clonedapper\\cruddappermvc.business\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEBACBD-417B-4CBC-BA87-0D566361B737}|CrudDapperMvc.Business\\CrudDapperMvc.Business.csproj|solutionrelative:cruddappermvc.business\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF7EDFF-B9BE-42C0-BC09-ADBDFCE85B0D}|CrudDapperMvc.Repository\\CrudDapperMvc.Repository.csproj|c:\\users\\leonardo\\source\\repos\\clonedapper\\cruddappermvc.repository\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF7EDFF-B9BE-42C0-BC09-ADBDFCE85B0D}|CrudDapperMvc.Repository\\CrudDapperMvc.Repository.csproj|solutionrelative:cruddappermvc.repository\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F47815-9726-48B0-A505-371873D3B97C}|CrudDapperMvc.Model\\CrudDapperMvc.Model.csproj|c:\\users\\leonardo\\source\\repos\\clonedapper\\cruddappermvc.model\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F47815-9726-48B0-A505-371873D3B97C}|CrudDapperMvc.Model\\CrudDapperMvc.Model.csproj|solutionrelative:cruddappermvc.model\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93560E35-CF6A-43DC-85D9-126B97F56F09}|CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj|c:\\users\\leonardo\\source\\repos\\clonedapper\\cruddappermvc.ui\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93560E35-CF6A-43DC-85D9-126B97F56F09}|CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj|solutionrelative:cruddappermvc.ui\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93560E35-CF6A-43DC-85D9-126B97F56F09}|CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj|c:\\users\\leonardo\\source\\repos\\clonedapper\\cruddappermvc.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93560E35-CF6A-43DC-85D9-126B97F56F09}|CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj|solutionrelative:cruddappermvc.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.UI\\Views\\User\\Search.cshtml",
+              "RelativeDocumentMoniker": "CrudDapperMvc.UI\\Views\\User\\Search.cshtml",
+              "ToolTip": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.UI\\Views\\User\\Search.cshtml",
+              "RelativeToolTip": "CrudDapperMvc.UI\\Views\\User\\Search.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T19:18:09.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_UserListPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.UI\\Views\\User\\_UserListPartial.cshtml",
+              "RelativeDocumentMoniker": "CrudDapperMvc.UI\\Views\\User\\_UserListPartial.cshtml",
+              "ToolTip": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.UI\\Views\\User\\_UserListPartial.cshtml",
+              "RelativeToolTip": "CrudDapperMvc.UI\\Views\\User\\_UserListPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T18:57:12.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.UI\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "CrudDapperMvc.UI\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.UI\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "CrudDapperMvc.UI\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAgwH4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T18:00:23.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.UI\\Views\\User\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CrudDapperMvc.UI\\Views\\User\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.UI\\Views\\User\\_Layout.cshtml",
+              "RelativeToolTip": "CrudDapperMvc.UI\\Views\\User\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T18:00:04.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.UI\\Views\\User\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CrudDapperMvc.UI\\Views\\User\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.UI\\Views\\User\\Delete.cshtml",
+              "RelativeToolTip": "CrudDapperMvc.UI\\Views\\User\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T18:00:01.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.UI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CrudDapperMvc.UI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.UI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CrudDapperMvc.UI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T17:47:13.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.Repository\\Data\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CrudDapperMvc.Repository\\Data\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.Repository\\Data\\UserRepository.cs",
+              "RelativeToolTip": "CrudDapperMvc.Repository\\Data\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T17:39:25.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.UI\\Program.cs",
+              "RelativeDocumentMoniker": "CrudDapperMvc.UI\\Program.cs",
+              "ToolTip": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.UI\\Program.cs",
+              "RelativeToolTip": "CrudDapperMvc.UI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T17:39:02.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.Business\\UserBusiness.cs",
+              "RelativeDocumentMoniker": "CrudDapperMvc.Business\\UserBusiness.cs",
+              "ToolTip": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.Business\\UserBusiness.cs",
+              "RelativeToolTip": "CrudDapperMvc.Business\\UserBusiness.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAADgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T17:35:00.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.Model\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CrudDapperMvc.Model\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.Model\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "CrudDapperMvc.Model\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T17:32:28.59Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

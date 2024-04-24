@@ -5,14 +5,12 @@ namespace CrudDapperMvc.Model.Interfaces
 {
     public interface IUserRepository
     {
-        User Insert(User user);
-        List<User> GetAll();
-        User Get(int id);
-        bool Delete(int id);
-        bool Update(User user);
-        bool CheckIfInserted(int id);
-
-        List<User> SearchByName(string term);
-
+        public User Insert(User user);
+        public List<User> GetAll();
+        public User Get(int id);
+        public bool Delete(int id);
+        public bool Update(User user);
+        public bool CheckIfInserted(int id);
+        public List<User> SearchByName(string term);
     }
 }

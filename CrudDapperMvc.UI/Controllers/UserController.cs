@@ -2,6 +2,7 @@
 using CrudDapperMvc.Model;
 using CrudDapperMvc.Model.Interfaces;
 using CrudDapperMvc.Business;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -27,83 +28,152 @@ namespace CrudDapperMvc.UI.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(User user)
         {
-            if (ModelState.IsValid)
+            try
             {
-                _userBusiness.Insert(user);
-                // Redirecionar para a action Index do UserController após a inserção bem-sucedida
-                return RedirectToAction(nameof(Index));
+                if (ModelState.IsValid)
+                {
+                    _userBusiness.Insert(user);
+                    // Redirecionar para a action Index do UserController após a inserção bem-sucedida
+                    return RedirectToAction(nameof(Index));
+                }
+                return View(user);
             }
-            return View(user);
+            catch (Exception ex)
+            {
+                // Lidar com a exceção de forma adequada, como registrar em log, exibir mensagem de erro personalizada, etc.
+                ModelState.AddModelError("", "Ocorreu um erro ao criar o usuário.");
+                return View(user);
+            }
         }
 
         public IActionResult Index()
         {
-            var users = _userBusiness.GetAll();
-            return View(users);
+            try
+            {
+                var users = _userBusiness.GetAll();
+                return View(users);
+            }
+            catch (Exception ex)
+            {
+                // Lidar com a exceção de forma adequada, como registrar em log, exibir mensagem de erro personalizada, etc.
+                ViewBag.ErrorMessage = "Ocorreu um erro ao carregar os usuários.";
+                return View(new List<User>());
+            }
         }
 
         public IActionResult Edit(int? id)
         {
-            if (id == null)
+            try
             {
-                return NotFound();
-            }
+                if (id == null)
+                {
+                    return NotFound();
+                }
 
-            var user = _userBusiness.Get(id.Value);
-            if (user == null)
-            {
-                return NotFound();
+                var user = _userBusiness.Get(id.Value);
+                if (user == null)
+                {
+                    return NotFound();
+                }
+                return View(user);
             }
-            return View(user);
+            catch (Exception ex)
+            {
+                // Lidar com a exceção de forma adequada, como registrar em log, exibir mensagem de erro personalizada, etc.
+                ViewBag.ErrorMessage = "Ocorreu um erro ao carregar o usuário.";
+                return View(new User());
+            }
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, [Bind("UserId,Name,Login,Password")] User user)
         {
-            if (id != user.UserId)
+            try
             {
-                return NotFound();
-            }
+                if (id != user.UserId)
+                {
+                    return NotFound();
+                }
 
-            if (ModelState.IsValid)
-            {
-                _userBusiness.Update(user);
-                return RedirectToAction(nameof(Index));
+                if (ModelState.IsValid)
+                {
+                    _userBusiness.Update(user);
+                    return RedirectToAction(nameof(Index));
+                }
+                return View(user);
             }
-            return View(user);
+            catch (Exception ex)
+            {
+                // Lidar com a exceção de forma adequada, como registrar em log, exibir mensagem de erro personalizada, etc.
+                ModelState.AddModelError("", "Ocorreu um erro ao editar o usuário.");
+                return View(user);
+            }
         }
 
         public IActionResult Delete(int? id)
         {
-            if (id == null)
+            try
             {
-                return NotFound();
-            }
+                if (id == null)
+                {
+                    return NotFound();
+                }
 
-            var user = _userBusiness.Get(id.Value);
-            if (user == null)
+                var user = _userBusiness.Get(id.Value);
+                if (user == null)
+                {
+                    return NotFound();
+                }
+
+                return View(user);
+            }
+            catch (Exception ex)
             {
-                return NotFound();
+                // Lidar com a exceção de forma adequada, como registrar em log, exibir mensagem de erro personalizada, etc.
+                ViewBag.ErrorMessage = "Ocorreu um erro ao carregar o usuário para exclusão.";
+                return View(new User());
             }
-
-            return View(user);
         }
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
         {
-            _userBusiness.Delete(id);
-            return RedirectToAction(nameof(Index));
+            try
+            {
+                _userBusiness.Delete(id);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+                // Lidar com a exceção de forma adequada, como registrar em log, exibir mensagem de erro personalizada, etc.
+                ViewBag.ErrorMessage = "Ocorreu um erro ao excluir o usuário.";
+                return View(new User());
+            }
         }
 
         [HttpPost]
         public IActionResult Search(string term)
         {
-            var users = _userRepository.SearchByName(term);
-            return PartialView("_UserListPartial", users);
+            try
+            {
+                var users = _userRepository.SearchByName(term);
+                return PartialView("_UserListPartial", users);
+            }
+            catch (Exception ex)
+            {
+                // Lidar com a exceção de forma adequada, como registrar em log, exibir mensagem de erro personalizada, etc.
+                ViewBag.ErrorMessage = "Ocorreu um erro ao pesquisar usuários.";
+                return PartialView("_UserListPartial", new List<User>());
+            }
         }
 
+        [HttpGet]
+        public IActionResult GetNames()
+        {
+            var names = _userRepository.GetAll().Select(u => u.Name).ToList();
+            return Json(names);
+        }
     }
 }

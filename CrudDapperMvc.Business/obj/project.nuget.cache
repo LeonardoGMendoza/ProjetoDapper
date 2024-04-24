@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nFnzV25OlBDHToQwSWo4b23tTNaS5Zc/HltItGRLq/SDL4+ipyGtk46N+TCKb599NTdo7a07Kgo/35ZPq6MTuA==",
+  "dgSpecHash": "h6PfcvVtDKMVmqz96oEy5MCJ5tc47q4xBckBZhF3Nin9WFrrHn/9Y7ojhhdaSkuFTkgvVlqihRwl4nQWbwW9MA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Business\\CrudDapperMvc.Business.csproj",
+  "projectFilePath": "C:\\Users\\LEONARDO\\source\\repos\\CloneDapper\\CrudDapperMvc.Business\\CrudDapperMvc.Business.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

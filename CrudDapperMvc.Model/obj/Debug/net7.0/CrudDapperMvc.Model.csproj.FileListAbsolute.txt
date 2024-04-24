@@ -10,3 +10,15 @@ C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Model\obj\Debug\net7.
 C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Model\obj\Debug\net7.0\refint\CrudDapperMvc.Model.dll
 C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Model\obj\Debug\net7.0\CrudDapperMvc.Model.pdb
 C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Model\obj\Debug\net7.0\ref\CrudDapperMvc.Model.dll
+C:\Users\LEONARDO\source\repos\CloneDapper\CrudDapperMvc.Model\bin\Debug\net7.0\CrudDapperMvc.Model.deps.json
+C:\Users\LEONARDO\source\repos\CloneDapper\CrudDapperMvc.Model\bin\Debug\net7.0\CrudDapperMvc.Model.dll
+C:\Users\LEONARDO\source\repos\CloneDapper\CrudDapperMvc.Model\bin\Debug\net7.0\CrudDapperMvc.Model.pdb
+C:\Users\LEONARDO\source\repos\CloneDapper\CrudDapperMvc.Model\obj\Debug\net7.0\CrudDapperMvc.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LEONARDO\source\repos\CloneDapper\CrudDapperMvc.Model\obj\Debug\net7.0\CrudDapperMvc.Model.AssemblyInfoInputs.cache
+C:\Users\LEONARDO\source\repos\CloneDapper\CrudDapperMvc.Model\obj\Debug\net7.0\CrudDapperMvc.Model.AssemblyInfo.cs
+C:\Users\LEONARDO\source\repos\CloneDapper\CrudDapperMvc.Model\obj\Debug\net7.0\CrudDapperMvc.Model.csproj.CoreCompileInputs.cache
+C:\Users\LEONARDO\source\repos\CloneDapper\CrudDapperMvc.Model\obj\Debug\net7.0\CrudDapperMvc.Model.sourcelink.json
+C:\Users\LEONARDO\source\repos\CloneDapper\CrudDapperMvc.Model\obj\Debug\net7.0\CrudDapperMvc.Model.dll
+C:\Users\LEONARDO\source\repos\CloneDapper\CrudDapperMvc.Model\obj\Debug\net7.0\refint\CrudDapperMvc.Model.dll
+C:\Users\LEONARDO\source\repos\CloneDapper\CrudDapperMvc.Model\obj\Debug\net7.0\CrudDapperMvc.Model.pdb
+C:\Users\LEONARDO\source\repos\CloneDapper\CrudDapperMvc.Model\obj\Debug\net7.0\ref\CrudDapperMvc.Model.dll

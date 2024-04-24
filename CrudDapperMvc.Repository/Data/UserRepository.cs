@@ -1,4 +1,4 @@
-﻿using CrudDapperMvc.Model; // Certifique-se de que o namespace está corretamente definido nos arquivos de modelo
+﻿using CrudDapperMvc.Model;
 using CrudDapperMvc.Model.Interfaces;
 using Dapper;
 using System;
@@ -31,12 +31,11 @@ namespace CrudDapperMvc.Repository.Data
                 }
 
                 // Se o login for único, proceder com a inserção
-                var parameters = new
-                {
-                    user.Name,
-                    user.Login,
-                    user.Password
-                };
+                var parameters = new DynamicParameters();
+                parameters.Add("@Name", user.Name);
+                parameters.Add("@Login", user.Login);
+                parameters.Add("@Password", user.Password);
+
                 var sql = "INSERT INTO [dbo].[User] (Name, Login, Password) VALUES (@Name, @Login, @Password); SELECT CAST(SCOPE_IDENTITY() as int)";
                 int userId = connection.Query<int>(sql, parameters).Single();
                 user.UserId = userId;
@@ -90,13 +89,12 @@ namespace CrudDapperMvc.Repository.Data
             using (var connection = new SqlConnection(_connectionString))
             {
                 connection.Open();
-                var parameters = new
-                {
-                    user.UserId,
-                    user.Name,
-                    user.Login,
-                    user.Password
-                };
+                var parameters = new DynamicParameters();
+                parameters.Add("@UserId", user.UserId);
+                parameters.Add("@Name", user.Name);
+                parameters.Add("@Login", user.Login);
+                parameters.Add("@Password", user.Password);
+
                 var sql = "UPDATE [dbo].[User] SET Name = @Name, Login = @Login, Password = @Password WHERE UserId = @UserId";
                 int rowsAffected = connection.Execute(sql, parameters);
                 return rowsAffected > 0;
@@ -112,7 +110,6 @@ namespace CrudDapperMvc.Repository.Data
                 return connection.Query<User>(sql, new { Term = $"%{term}%" }).ToList();
             }
         }
-
 
         public bool CheckIfInserted(int id)
         {
