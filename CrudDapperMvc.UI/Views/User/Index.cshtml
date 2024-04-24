@@ -1,0 +1,119 @@
+﻿@model List<CrudDapperMvc.Model.User>
+
+@{
+    ViewData["Title"] = "User List";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .user-list {
+            max-height: 300px; /* Defina a altura máxima desejada */
+            overflow-y: auto; /* Habilita a rolagem vertical */
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Criando Novos Usuarios</h2>
+
+        <form id="userForm" method="post">
+            @Html.AntiForgeryToken()
+
+            <div class="form-group">
+                <label for="Name">Name:</label>
+                <input type="text" class="form-control" id="Name" name="Name" placeholder="Enter name">
+            </div>
+            <div class="form-group">
+                <label for="Login">Login:</label>
+                <input type="text" class="form-control" id="Login" name="Login" placeholder="Enter login">
+            </div>
+            <div class="form-group">
+                <label for="Password">Password:</label>
+                <input type="password" class="form-control" id="Password" name="Password" placeholder="Enter password">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <hr>
+
+        <h2>Lista De Usuarios</h2>
+
+        <div class="input-group mb-3">
+            <input type="text" id="searchInput" class="form-control" placeholder="Search...">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" id="searchButton">Search</button>
+            </div>
+        </div>
+
+        <div class="user-list">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Login</th>
+                        <th>Password</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in Model)
+                    {
+                        <tr>
+                            <td>@user.Name</td>
+                            <td>@user.Login</td>
+                            <td>@user.Password</td>
+                            <td>
+                                <div class="btn-group" role="group" aria-label="User Actions">
+                                    <a asp-action="Edit" asp-route-id="@user.UserId" class="btn btn-primary">Editar</a>
+                                    <a asp-action="Delete" asp-route-id="@user.UserId" class="btn btn-danger">Excluir</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#userForm').submit(function (event) {
+                event.preventDefault(); // Previne a submissão padrão do formulário
+
+                var formData = {
+                    Name: $("#Name").val(),
+                    Login: $("#Login").val(),
+                    Password: $("#Password").val(),
+                    __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val()
+                };
+
+                $.post("/User/Create", formData)
+                    .done(function (data) {
+                        // Em caso de sucesso, recarrega a página para atualizar a lista de usuários
+                        window.location.reload();
+                    })
+                    .fail(function (xhr, status, error) {
+                        // Em caso de falha, registra o erro no console
+                        console.error(xhr.responseText);
+                    });
+            });
+
+            $('#searchButton').click(function () {
+                var searchTerm = $('#searchInput').val();
+                $.post('/User/Search', { term: searchTerm }, function (data) {
+                    $('.user-list').html(data);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

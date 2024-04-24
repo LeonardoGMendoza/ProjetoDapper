@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CrudDapperMvc.Business\CrudDapperMvc.Business.csproj" />
+    <ProjectReference Include="..\CrudDapperMvc.Model\CrudDapperMvc.Model.csproj" />
+    <ProjectReference Include="..\CrudDapperMvc.Repository\CrudDapperMvc.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

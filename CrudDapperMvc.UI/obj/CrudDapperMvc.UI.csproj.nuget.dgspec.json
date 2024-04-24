@@ -1,0 +1,311 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Business\\CrudDapperMvc.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Business\\CrudDapperMvc.Business.csproj",
+        "projectName": "CrudDapperMvc.Business",
+        "projectPath": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Business\\CrudDapperMvc.Business.csproj",
+        "packagesPath": "C:\\Users\\LEONARDO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LEONARDO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Model\\CrudDapperMvc.Model.csproj": {
+                "projectPath": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Model\\CrudDapperMvc.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Model\\CrudDapperMvc.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Model\\CrudDapperMvc.Model.csproj",
+        "projectName": "CrudDapperMvc.Model",
+        "projectPath": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Model\\CrudDapperMvc.Model.csproj",
+        "packagesPath": "C:\\Users\\LEONARDO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LEONARDO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Repository\\CrudDapperMvc.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Repository\\CrudDapperMvc.Repository.csproj",
+        "projectName": "CrudDapperMvc.Repository",
+        "projectPath": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Repository\\CrudDapperMvc.Repository.csproj",
+        "packagesPath": "C:\\Users\\LEONARDO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LEONARDO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Model\\CrudDapperMvc.Model.csproj": {
+                "projectPath": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Model\\CrudDapperMvc.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj",
+        "projectName": "CrudDapperMvc.UI",
+        "projectPath": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.UI\\CrudDapperMvc.UI.csproj",
+        "packagesPath": "C:\\Users\\LEONARDO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LEONARDO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Business\\CrudDapperMvc.Business.csproj": {
+                "projectPath": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Business\\CrudDapperMvc.Business.csproj"
+              },
+              "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Model\\CrudDapperMvc.Model.csproj": {
+                "projectPath": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Model\\CrudDapperMvc.Model.csproj"
+              },
+              "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Repository\\CrudDapperMvc.Repository.csproj": {
+                "projectPath": "C:\\Users\\LEONARDO\\source\\repos\\CrudDapperMvc\\CrudDapperMvc.Repository\\CrudDapperMvc.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

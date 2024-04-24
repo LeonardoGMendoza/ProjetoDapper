@@ -1,0 +1,7 @@
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Teste\bin\Debug\net7.0\CoverletSourceRootsMapping
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Teste\obj\Debug\net7.0\CrudDapperMvc.Teste.csproj.AssemblyReference.cache
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Teste\obj\Debug\net7.0\CrudDapperMvc.Teste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Teste\obj\Debug\net7.0\CrudDapperMvc.Teste.AssemblyInfoInputs.cache
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Teste\obj\Debug\net7.0\CrudDapperMvc.Teste.AssemblyInfo.cs
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Teste\obj\Debug\net7.0\CrudDapperMvc.Teste.csproj.CoreCompileInputs.cache
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Teste\obj\Debug\net7.0\CrudDapperMvc.Teste.sourcelink.json

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "CrudDapperMvc.Business/1.0.0": {
+        "dependencies": {
+          "CrudDapperMvc.Model": "1.0.0"
+        },
+        "runtime": {
+          "CrudDapperMvc.Business.dll": {}
+        }
+      },
+      "CrudDapperMvc.Model/1.0.0": {
+        "runtime": {
+          "CrudDapperMvc.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CrudDapperMvc.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CrudDapperMvc.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

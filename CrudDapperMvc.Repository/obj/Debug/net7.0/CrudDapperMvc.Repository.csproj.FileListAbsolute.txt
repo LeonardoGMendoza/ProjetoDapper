@@ -1,0 +1,16 @@
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Repository\bin\Debug\net7.0\CrudDapperMvc.Repository.deps.json
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Repository\bin\Debug\net7.0\CrudDapperMvc.Repository.dll
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Repository\bin\Debug\net7.0\CrudDapperMvc.Repository.pdb
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Repository\bin\Debug\net7.0\CrudDapperMvc.Model.dll
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Repository\bin\Debug\net7.0\CrudDapperMvc.Model.pdb
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Repository\obj\Debug\net7.0\CrudDapperMvc.Repository.csproj.AssemblyReference.cache
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Repository\obj\Debug\net7.0\CrudDapperMvc.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Repository\obj\Debug\net7.0\CrudDapperMvc.Repository.AssemblyInfoInputs.cache
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Repository\obj\Debug\net7.0\CrudDapperMvc.Repository.AssemblyInfo.cs
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Repository\obj\Debug\net7.0\CrudDapperMvc.Repository.csproj.CoreCompileInputs.cache
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Repository\obj\Debug\net7.0\CrudDapperMvc.Repository.sourcelink.json
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Repository\obj\Debug\net7.0\CrudDapp.19E27524.Up2Date
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Repository\obj\Debug\net7.0\CrudDapperMvc.Repository.dll
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Repository\obj\Debug\net7.0\refint\CrudDapperMvc.Repository.dll
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Repository\obj\Debug\net7.0\CrudDapperMvc.Repository.pdb
+C:\Users\LEONARDO\source\repos\CrudDapperMvc\CrudDapperMvc.Repository\obj\Debug\net7.0\ref\CrudDapperMvc.Repository.dll
